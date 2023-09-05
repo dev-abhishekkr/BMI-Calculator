@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: rgb(39, 124, 215);
+    font-family: sans-serif;
+    color: white;
+}
+span{
+    color: rgb(255, 30, 0);
+    font-size: 15px;
+}
+.container{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: column;
+}
+.content{
+    background-color: rgb(39, 124, 216);
+    padding: 80px;
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+                 rgba(0, 0, 0, 0.12) 0px -12px 30px,
+                 rgba(0, 0, 0, 0.12) 0px 4px 6px, 
+                 rgba(0, 0, 0, 0.17) 0px 12px 13px,
+                 rgba(0, 0, 0, 0.09) 0px -3px 5px;
+
+    
+}
+.input-content h3{
+    margin-top: 10px;
+    
+}
+.input-content input{
+    padding: 6px;
+    border: none;
+    border-radius: 5px;
+    
+}
+.input-content input:hover{
+    box-shadow: 0 0 5px cyan,
+    0 0 25px cyan, 0 0 50px cyan,
+    0 0 100px cyan, 0 0 200px cyan
+}
+
+.output-content{
+    margin-top: 15px;
+}
+.btn{
+    height: 40px;
+    width: 80px;
+    border: none;
+    border-radius: 5px;
+    
+}
+.btn:hover{
+    cursor: pointer;
+    box-shadow: 0 0 5px cyan,
+    0 0 25px cyan, 0 0 50px cyan,
+    0 0 100px cyan, 0 0 200px cyan
+
+}
+
+button{
+    font-size: 15px;
+    font-weight: 600;
+    color: rgb(39, 86, 118);
+}
+.result{
+    margin-top: 25px;
+}
